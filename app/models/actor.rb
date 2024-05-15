@@ -1,6 +1,6 @@
 # == Schema Information
 #
-# Table name: directors
+# Table name: actors
 #
 #  id         :integer          not null, primary key
 #  bio        :text
@@ -10,5 +10,5 @@
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
-class Director < ApplicationRecord
+class Actor < ApplicationRecord
 end
